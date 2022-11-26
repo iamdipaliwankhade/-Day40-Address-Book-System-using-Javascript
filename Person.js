@@ -172,9 +172,9 @@ function addContact(){
     t=true;
     let obj = new Person(fName,lastName,address,city,state,zip,phoneNumber,email);
     contactList.push(obj);
-    let Ketan = new Person('Amit','Chawre','Talegaon Road','Arvi','Maharashtra','400015','9677897687','Amit88@gmail.com');
+    let Ketan = new Person('Amit','Chawre','Talegaon Road','Arvi','Maharashtra','400015','9876567865','Amit88@gmail.com');
     let Yash = new Person('Yash','Ghade','Farm House','Panji','Goa','404715','7897894851','yash@gmail.com');
-    contactList.push(Ketan);
+    contactList.push(Amit);
     contactList.push(Yash);
 }
 
